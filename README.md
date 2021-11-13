@@ -24,7 +24,7 @@ Or add this package to your `package.json` file:
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 import DecoupledDocumentEditor from "@ckeditor5-custom-build/decoupled-document-editor";
 
-const Editor = ({ onChange, name, value }) => {
+const Editor = () => {
   function uploadAdapter(loader) {
     return {
       upload: () => {
