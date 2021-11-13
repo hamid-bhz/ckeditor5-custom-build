@@ -1,0 +1,65 @@
+{
+  "name": "@ckeditor5-custom-build/decoupled-document-editor",
+  "version": "0.1.1",
+  "author": {
+    "name": "Hamidreza Behzadi",
+    "email": "hamidbehzadi71@gmail.com"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "description": "A custom CKEditor 5 build with custom uploadAdapter",
+  "main": "./lib/ckeditor.js",
+  "module": "./lib/ckeditor.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamid-bhz/ckeditor5-custom-build.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamid-bhz/ckeditor5-custom-build/issues"
+  },
+  "homepage": "https://github.com/hamid-bhz/ckeditor5-custom-build#readme",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin",
+    "ckeditor5-react",
+    "ckeditor5-custom",
+    "ckeditor5-custom-build",
+    "uploadAdapter"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@ckeditor/ckeditor5-alignment": "^31.0.0",
+    "@ckeditor/ckeditor5-autoformat": "^31.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^31.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^25.4.5",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.4.5",
+    "@ckeditor/ckeditor5-editor-decoupled": "^31.0.0",
+    "@ckeditor/ckeditor5-essentials": "^31.0.0",
+    "@ckeditor/ckeditor5-font": "^31.0.0",
+    "@ckeditor/ckeditor5-heading": "^31.0.0",
+    "@ckeditor/ckeditor5-image": "^31.0.0",
+    "@ckeditor/ckeditor5-indent": "^31.0.0",
+    "@ckeditor/ckeditor5-link": "^31.0.0",
+    "@ckeditor/ckeditor5-list": "^31.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^31.0.0",
+    "@ckeditor/ckeditor5-paste-from-office": "^31.0.0",
+    "@ckeditor/ckeditor5-table": "^31.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^31.0.0",
+    "@ckeditor/ckeditor5-typing": "^31.0.0",
+    "css-loader": "^5.2.7",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^4.3.0",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "files": [
+    "lib"
+  ]
+}
