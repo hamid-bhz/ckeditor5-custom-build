@@ -29,7 +29,7 @@
     "uploadAdapter"
   ],
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --config webpack/webpack.config.js"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-alignment": "^31.0.0",

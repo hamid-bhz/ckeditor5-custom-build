@@ -5,12 +5,12 @@ const CKEditorWebpackPlugin = require("@ckeditor/ckeditor5-dev-webpack-plugin");
 const TerserWebpackPlugin = require("terser-webpack-plugin");
 
 module.exports = {
-  devtool: "source-map",
+  mode: "production",
   performance: { hints: false },
-  entry: path.resolve(__dirname, "src", "ckeditor.js"),
+  entry: path.resolve(process.cwd(), "src/ckeditor.js"),
   output: {
     library: "DecoupledDocumentEditor",
-    path: path.resolve(__dirname, "lib"),
+    path: path.resolve(process.cwd(), "lib"),
     filename: "ckeditor.js",
     libraryTarget: "umd",
     libraryExport: "default",
