@@ -14,7 +14,7 @@ Or add this package to your `package.json` file:
 
 ```
 "dependencies": {
-  "@ckeditor5-custom-build/decoupled-document-editor": "0.1.3"
+  "@ckeditor5-custom-build/decoupled-document-editor": "0.1.4"
 }
 ```
 
