@@ -1,6 +1,7 @@
 /node_modules
 /build
 /lib
+/sample/node_modules
 
 yarn-debug.log*
 yarn-error.log*
